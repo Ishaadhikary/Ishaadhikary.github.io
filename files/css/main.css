@@ -1,0 +1,75 @@
+body{
+    background:rgb(243 255 241);
+    font-family: 'Lato', 'Open sans';
+}
+
+header{
+    background:#007644;
+    color:rgb(243 255 241);
+    text-align: left;
+    padding: 3px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+table{
+    font-size: 14px;
+    text-align: center;
+    margin: 40px auto;
+    width: 75%;
+}
+
+thead{
+    background:#007644;
+    color:rgb(243 255 241); 
+    font-size: 16px;
+}
+
+#sn{
+    width: 4%;
+}
+
+#title{
+width: 60%;
+}
+
+#demo{
+    width: 18%;
+
+}
+
+#code{
+
+    width: 18%;
+}
+
+.Ybutton {
+    background-color: #ffd23f;
+    border: none; 
+    color:rgb(243 255 241); 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block;
+    font-size: 12px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+  }
+
+
+  .Pbutton {
+    background-color: #ee4266; 
+    border: none; 
+    color:rgb(243 255 241); 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px; 
+    border-radius: 10px; 
+  }  
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
