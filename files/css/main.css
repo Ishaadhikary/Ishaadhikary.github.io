@@ -1,32 +1,33 @@
 body{
-    background:rgb(243 255 241);
-    font-family: 'Lato', 'Open sans';
+    background:rgb(194 246 250 / 58%);
+    font-family: 'Lato', 'Open sans','sans-serif';
 }
 
 header{
-    background:#007644;
+    position:fixed;
+    top:0;
+    right: 0;
+    left:0;
+    background: #00A4B1;
     color:rgb(243 255 241);
-    text-align: left;
-    padding: 3px;
+    text-align: center;
+    padding: 0;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 45px;
 }
 
 table{
     font-size: 14px;
     text-align: center;
-    margin: 40px auto;
+    margin: 80px auto;
     width: 75%;
     box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.3);
-    padding: 10px ;
+    line-height: 25px;
+    border-spacing: 0;
+    border-radius: 10px;
 }
 
-thead{
-    background:#007644;
-    color:rgb(243 255 241); 
-    font-size: 16px;
-}
-
+/* Specifying the width for each the columns */
 #sn{
     width: 4%;
 }
@@ -45,33 +46,63 @@ width: 60%;
     width: 18%;
 }
 
+
+table tr.title{
+    background:#00A4B1;
+    color:rgb(243 255 241); 
+    font-size: 16px;
+    height: 35px;
+}
+
+tr.title th:first-child {
+    border-top-left-radius: 10px;
+}
+tr.title th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table tr, table td{
+    padding: 8px;
+    height: 30px;
+}
+
+/* Alternating the colors of the rows */
+tr:nth-child(even){
+background-color:#c5f5f8;
+}
+
+
+/* Button for View Demo */
 .Ybutton {
-    background-color: #fbca28;
+    background-color:#f5bc00;
     border: none; 
     color:rgb(243 255 241); 
-    padding: 7px 15px; 
+    padding: 3px 10px; 
     text-align: center; 
     text-decoration: none; 
     display: inline-block;
     font-size: 13px; 
     cursor: pointer; 
-    border-radius: 14px; 
     margin-top: 5px;
-
+    box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    font-weight: bold;
   }
 
-
+/* Button for View Code */
   .Pbutton {
     background-color: #ee4266; 
     border: none; 
     color:rgb(243 255 241); 
-    padding: 7px 15px; 
+    padding: 3px 10px; 
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 13px; 
-    border-radius: 14px; 
-    margin-top: 5px;
+    margin-top: 3px;
+    box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+    font-weight: bold;
   }  
 
 a{

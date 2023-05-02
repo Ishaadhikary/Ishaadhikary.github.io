@@ -1,0 +1,28 @@
+body{
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+h1{
+    margin-top:15%;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 100px;
+}
+
+/* Button for View Code */
+.resetButton {
+    background-color: #ee4266; 
+    border: none; 
+    color:rgb(243 255 241); 
+    padding: 7px 15px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px; 
+    border-radius: 14px; 
+    margin: 0;
+    box-shadow: 0px 4px 15px 10px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+  }
+
