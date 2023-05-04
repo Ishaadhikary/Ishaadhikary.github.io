@@ -71,4 +71,4 @@
                         <td><div class="Ybutton"><a href="files/html/comingSoon.html" target="_blank">View Demo</a></div></td>
                         <td><div class="Pbutton"><a href="files/html/comingSoon.html" target="_blank">View Code</a></div></td>
                     </tr>  
-                
+                .
